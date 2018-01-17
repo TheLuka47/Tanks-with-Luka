@@ -1,0 +1,12 @@
+//Main
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.awt.image.*;
+
+public class MainChick extends JFrame implements ActionListener{
+	GamePanel game = new GamePanel();
+	Timer myTimer;
+	public Game3(){
+		super("Tanks");
